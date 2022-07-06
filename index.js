@@ -1,8 +1,4 @@
-/*①クリック時に実行する関数*/
-function clickListener (e) {
-  /*クリックした要素のIDを表示*/
-  alert( e.target.getAttribute("id") + "をクリックしました" )
-}
+
 /*②IMG要素を全てセレクト*/
 document.querySelectorAll("img").forEach((imgElm) => {
   /*③要素のクリックイベントにイベントリスナーを紐づける*/

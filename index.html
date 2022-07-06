@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>ころくる</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
-    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-6-1/css/9-6-1.css">
-    <!--CSSファイルの読み込み-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+<html lang="ja">
+<head>
+　<meta charset="utf-8">
+　<title>ころくる</title>
+　<meta name="description"  content="書籍「動くWebデザインアイディア帳」のサンプルサイトです">
+
+　<meta name="viewport" content="width=device-width,initial-scale=1.0">
+　<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+　<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+　<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+　<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-6-1/css/9-6-1.css">
+</head>
   <body>
-    <h1>ボール比較</h1>
-    <img id="tennis01" src="tennis01.jpg" />
-　　<img id="base01" src="base01.png" />
+    <header id="header">
+        <h1>ころくる</h1>   
+      </header>
+    
+    <!-- HTMLコード -->
+    <main>
+        <section>
+        <h2>ボール比較</h2>
+               
+          <p><a href="#info1" class="modal-open"><img id="tennis01" src="images/tennis01.jpg" /></a></p>
+          <p><a href="#info2" class="modal-open"><img id="base01" src="images/base01.png" /></a></p>
+      
+        <section id="info1">
+        <h2>テニス</h2>
+        <p>ボールの情報</p>
+        </section>
+        <section id="info2">
+            <h2>野球</h2>
+            <p>ボールの情報</p>
+            </section>
+        <!--/area1--></section>
 
-<section id="info">
-    <h2>テニス</h2>
-    <p>ボールの情報</p>
-    </section>
+     <!--/main--></main>
 
-
+     
+  <footer id="footer"> 
+  </footer>
 
       <!--.jsファイルの読み込み-->
   <script type="text/javascript" src="index.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-6-1/js/9-6-1.js"></script>
+</body>
 </html>
