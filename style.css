@@ -32,11 +32,14 @@ header{
   background: #333;
 }
 
-main{
+.slide-wrap {
     overflow-x: scroll;
-    padding: 10px;
-    border: 1px solid #999;
-}
+    background-color: #ccc;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+  }
 
 h1{
   font-size:1.5rem;
